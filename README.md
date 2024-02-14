@@ -59,6 +59,9 @@ https://github.com/ABeatrizSC/toDo-list/assets/105675205/a68cb149-521a-49ee-8634
     <a href="https://date-fns.org/docs/Getting-Started" target="_blank">Date-fns</a>: Biblioteca que facilita a manipulação de datas;
   </li>
   <li>
+    <a href="https://www.npmjs.com/package/toastify-js?activeTab=readme" target="_blank">Toastify-js</a>: Biblioteca de toast/notificações Javascript;
+  </li>
+  <li>
     <a href="https://vitejs.dev/guide/" target="_blank">ViteJS</a>: É um build tool que permite um desenvolvimento rápido para projetos web. Ele simula um servidor durante o desenvolvimento para melhorar o desempenho e a produtividade.
   </li>
 </ul>
