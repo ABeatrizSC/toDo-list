@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de afazeres com HTML, CSS e Javascript.">
+  <title>ToDo list</title>
+  <link rel="shortcut icon" href="public/favicon.png" type="image/png">
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="src/styles/index.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+  <div class="container-to-do" id="container-to-do">
+    <div class="container-to-do__header">
+      <h1>ToDo List</h1>
+      <p id="date">13/02/2024</p>
+      <div class="header__container-tasks-information">
+        <div class="task-information">
+          <p id="total-tasks">0</p>
+          <p>Total</p>
+        </div>
+        <div class="task-information">
+          <p id="remaning-tasks">0</p>
+          <p>Pendentes</p>
+        </div>
+        <div class="task-information">
+          <p id="done-tasks">0</p>
+          <p>Feitos</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-to-do__content">
+      <div class="container-add-task">
+        <input id="input-task" type="text" placeholder="Crie uma nova tarefa">
+        <button type="button" class="add-task-button" id="add-task-button">Add</button>
+      </div>
+      <ul class="task-list" id="task-list"></ul>
+    </div>
+  </div>
+  <p class="made-by-paragraph">Desenvolvido por <a href="https://github.com/ABeatrizSC" target="_blank">ABeatrizSC</a></p>
+  <script type="module" src="src/scripts/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
